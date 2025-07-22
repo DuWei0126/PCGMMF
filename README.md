@@ -35,10 +35,10 @@ The third step is spliting the dataset.
 The fourth step is training. ./splits/Recurrence_metastasis_vs_normal_100_balance is a directory of saving the dataset splitting. Result is a directory of saving the training results.
 
 ```python
- ppython TN_main.py --early_stopping --lr 6e-6 --k 1 --split_dir ./splits/Recurrence_metastasis_vs_normal_100_balance --exp_code Result --task Recurrence_metastasis_vs_normal --data_root_dir FEATURES_DIRECTORY --drop_out
+ python TN_main.py --early_stopping --lr 6e-6 --k 1 --split_dir ./splits/Recurrence_metastasis_vs_normal_100_balance --exp_code Result --task Recurrence_metastasis_vs_normal --data_root_dir FEATURES_DIRECTORY --drop_out
 ```
 ## Valuation
 
 ```python
- ppython Valuation.py
+ python Valuation.py
 ```
