@@ -40,5 +40,5 @@ The fourth step is training. ./splits/Recurrence_metastasis_vs_normal_100_balanc
 ## Valuation
 
 ```python
- python Valuation.py
+ python evaluation.py
 ```
